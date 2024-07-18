@@ -1,3 +1,3 @@
-# BSTS303P-Advanced-Competitive-Coding
+# BSTS301P-Advanced-Competitive-Coding
 
-### This repository consists of my coursework from BSTS303P - Advanced Competitive Coding, lectured by FacePrep
+### This repository consists of my coursework from BSTS301P - Advanced Competitive Coding, lectured by FacePrep
