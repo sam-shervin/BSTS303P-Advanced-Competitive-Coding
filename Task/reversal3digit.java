@@ -1,8 +1,5 @@
 // write a program to reverse a n digit number
-// input: 123
-// output: 321
-// input: 1234
-// output: 4321
+// 22 July 2024
 
 import java.util.Scanner;
 
