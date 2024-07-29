@@ -3,12 +3,8 @@
  * It does so by iteratively marking the multiples of each prime number starting from 2.
  * 
  */
-
-
-
 package Sieve_Algorithm;
 public class SieveAlgorithm {
-    
     public static void main(String[] args) {
         // My code: 
         int n = 100;
@@ -31,5 +27,4 @@ public class SieveAlgorithm {
             }
         }
     }
-
 }
