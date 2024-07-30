@@ -12,19 +12,18 @@ public class SegmentedSieveAlgorithm {
             arr[i] = true;
         }
 
-        for (int i = 2; i * i < n; i++) {
-            if (arr[i] == true) {
-                for (int j = i * i; j <= n; j = j + i) {
-                    arr[j] = false;
-                }
+        for (int i = 2; i * i < end; i++) {
+            int sm = (start / i) * i;
+            if (sm < start) {
+                sm = sm + i;
             }
-        }
-
-        for(int i = 0; i < start; i++) {
-            arr[i] = false;
+            for (int j = sm; j <= n; j = j + i) {
+                arr[j] = false;
+            }
+            
         }
         
-        for (int i = 2; i < n; i++) {
+        for (int i = start; i < end; i++) {
             if (arr[i] == true) {
                 System.out.println(i);
             }
