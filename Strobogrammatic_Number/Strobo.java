@@ -31,6 +31,6 @@ public class Strobo {
         return true;
     }
     public static void main(String[] args){
-        System.out.println(isStrobogrammatic("66"));
+        System.out.println(isStrobogrammatic("69"));
         }
 }
