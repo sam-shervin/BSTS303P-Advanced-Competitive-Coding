@@ -3,7 +3,7 @@
  * rotationally symmetric so that it appears the same when 
  * rotated 180 degrees
  */
-package Strobogrammatic_Number;
+package StrobogrammaticNumber;
 
 import java.util.HashMap;
 import java.util.Map;

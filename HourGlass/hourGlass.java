@@ -3,7 +3,8 @@ package HourGlass;
 public class hourGlass {
     static int findMaxSum(int[][] arr, int R, int C) {
         if (R < 3 || C < 3) {
-            return -1;
+            System.err.println("Invalid input");
+            System.exit(0);
         }
 
         int maxSum = 0;
