@@ -3,28 +3,25 @@ package Sieve_Algorithm;
 public class SegmentedSieveAlgorithm {
     public static void main(String[] args) {
         int start = 20;
-        int end = 200;
+        int end = 2100;
 
         // My code: 
-        int n = end;
-        boolean arr[] = new boolean[n + 1];
-        for (int i = 0; i < n; i++) {
-            arr[i] = true;
-        }
+        boolean arr[] = new boolean[end + 1];
+        
 
         for (int i = 2; i * i < end; i++) {
             int sm = (start / i) * i;
             if (sm < start) {
                 sm = sm + i;
             }
-            for (int j = sm; j <= n; j = j + i) {
-                arr[j] = false;
+            for (int j = sm; j <= end; j = j + i) {
+                arr[j] = true;
             }
             
         }
         
         for (int i = start; i < end; i++) {
-            if (arr[i] == true) {
+            if (arr[i] == false) {
                 System.out.println(i);
             }
         }
